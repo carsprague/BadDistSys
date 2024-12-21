@@ -1,0 +1,16 @@
+[INFO] sucessfully added new member: fa24-cs425-8010:8080@1727665212
+[INFO] sucessfully added new member: fa24-cs425-8009:8080@1727665214
+[INFO] sucessfully added new member: fa24-cs425-8007:8080@1727665215
+[INFO] sucessfully added new member: fa24-cs425-8008:8080@1727665215
+[INFO] sucessfully added new member: fa24-cs425-8002:8080@1727665216
+[INFO] sucessfully added new member: fa24-cs425-8003:8080@1727665217
+[INFO] sucessfully added new member: fa24-cs425-8004:8080@1727665217
+[GOSSIP] mark fa24-cs425-8007:8080@1727665215 as ALIVE
+[INFO] sucessfully added new member: fa24-cs425-8006:8080@1727665218
+[WARNING] PING_ACK not recieved from, fa24-cs425-8007:8080@1727665215: marking SUSPECT 
+[GOSSIP] mark fa24-cs425-8007:8080@1727665215 as ALIVE
+[GOSSIP] mark fa24-cs425-8007:8080@1727665215 as ALIVE
+[INFO] sucessfully added new member: fa24-cs425-8005:8080@1727665219
+[GOSSIP] mark fa24-cs425-8007:8080@1727665215 as ALIVE
+[GOSSIP] mark fa24-cs425-8007:8080@1727665215 as ALIVE
+[GOSSIP] mark fa24-cs425-8007:8080@1727665215 as ALIVE

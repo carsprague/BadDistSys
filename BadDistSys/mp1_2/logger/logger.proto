@@ -1,0 +1,33 @@
+// Basic Logger Protobuf Declarations
+//
+// By defining the service, messages, and more in this file, Go will
+// auto-generate code for us. This is part of the gRPC package.
+//
+// Basic Docs
+// https://grpc.io/docs/languages/go/quickstart/#prerequisites
+//
+// Example
+// https://github.com/grpc/grpc-go/tree/master/examples/helloworld
+//
+// To update this, run this loong command: (note that this is just recompiling the protobufs)
+// protoc --go_out=. --go_opt=paths=source_relative --go-grpc_out=. --go-grpc_opt=paths=source_relative logger/logger.proto
+
+
+syntax = "proto3";
+
+option go_package = "https://gitlab.engr.illinois.edu/cs104/baddistsys/logger";
+
+package logger;
+
+service LoggerService {
+    rpc LoggerRequest (Request) returns (stream Reply) {} 
+}
+
+message Request {
+    string CmdName = 1;
+    repeated string Args = 2;
+}
+
+message Reply {
+    string output = 1;
+}
